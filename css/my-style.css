@@ -1,0 +1,297 @@
+body {
+    background-image: url('../img/bg-site2.jpg');
+    font-family: 'Droid Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+a:hover {
+    color: #0a0a0a;
+}
+
+.wrapper {
+    max-width: 90%;
+    margin: 2em auto 2em;
+    padding-bottom: .1em;
+    background-color: #fff;
+}
+
+/******* NAVIGATION */
+.main-nav {
+    text-align: center;
+}
+
+.main-nav li{
+    display: block;
+    text-align: center;
+    margin-top: 2em;
+    margin-right: .6em;
+    font-size: .9em;
+}
+
+
+.main-nav a {
+    padding: .7em;
+}
+
+.main-nav a:link,
+.main-nav a:visited {
+    color: #767673;
+}
+
+.main-nav a:hover {
+    color: #0a0a0a;
+}
+
+/********************LOGO*/
+
+.logo-text {
+    background-color: #27968b;
+    margin: 1px .9em;
+    color: #fff;
+    text-align: center;
+    padding: .7em .5em;
+}
+
+.logo-text a:link,
+.logo-text a:visited {
+    color: #fff;
+}
+
+
+/*******************FEATURES*/
+.border-wrapp {
+    border: solid lightgrey 1px;
+    text-align: center;
+    padding: 2em 2em .9em;
+    margin: 2em .9em .9em;
+}
+
+.border-wrapp img {
+    max-width: 90%;
+    margin-bottom: 1em;
+}
+
+.border-wrapp a:link,
+.border-wrapp a:visited {
+    color: #0a0a0a;
+}
+
+.border-wrapp a:hover {
+    color: #27968b;
+}
+
+.border-wrapp p a:link,
+.border-wrapp p a:visited {
+    color: #27968b;
+}
+
+.border-wrapp p a:hover {
+    color: #0a0a0a;
+    text-decoration: underline;
+}
+
+.border-wrapp h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.border-wrapp h2 {
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.border-wrapp p {
+    color: #767673;
+}
+
+.features-5-8 h3 {
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    background-color: #27968b;
+    padding-top: .7em;
+    padding-bottom: .7em;
+    margin: 2.1em .8em 0;
+}
+/****************CONTACT*/
+[class*="fi-"] {
+    font-size: 2em;
+    color: #a5a5a3;
+    text-align: center;
+    margin-right: .3em;
+}
+[class*="fi-"]:hover {
+    color: #c7c7c5;
+}
+
+
+/*********** *NEWSLETTER*/
+.labels-style {
+    margin-bottom: 10px;
+    padding: 13px;
+    width: 100%;
+}
+/******************ABOUT*/
+.about-img img {
+    max-width: 7em;
+    border-radius: 50%;
+
+}
+
+/*************** FOOTER*/
+.footer-style {
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background-color: #27968b;
+    padding: 2.4em;
+    margin: 2.1em 1.3em;
+}
+
+.footer-style a:link,
+.footer-style a:visited {
+    color: #fff;
+}
+.footer-style a:hover {
+    color: #0a0a0a;
+    text-decoration: underline;
+}
+
+.footer-style p {
+    margin: 0;
+}
+
+/**********************************************
+                MEDIA QUERIES
+**********************************************/
+@media screen and (min-width: 640px) {
+
+    .wrapper {
+        max-width: 97%;
+        padding: 1.4em 1.2em;
+        margin-bottom: .8em;
+    }
+
+/*************** LOGO + SEC_NAV */
+    .main-nav li{
+        display: inline-block;
+    }
+
+    .logo-text {
+        padding: 0;
+    }
+    .sec-nav {
+        background-color: #258f84;
+        max-width: 100%;
+        margin: 0;
+        padding: .3em 0;
+    }
+
+
+
+    .category-nav {
+        text-align: center;
+        margin: 5px;
+    }
+
+    .category-nav li {
+        display: inline-block;
+        margin-right: 0.9em;
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+
+    .category-nav a:link,
+    .category-nav a:visited {
+        color: #fff;
+    }
+
+    .category-nav a:hover {
+        background-color: #fff;
+        color: #767673;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+
+/*************** FEATURES GALLERY  */
+
+.border-wrapp {
+    padding: 1.5em 1.5em .8em;
+    margin: 1.5em .8em .8em;
+}
+
+.feat-first img {
+    max-width: 100%;
+}
+
+.feat-second img {
+    max-width: 100%;
+}
+
+.features-5-8 h3 {
+    font-size: 1.3em;
+    margin: 1em 0 1em;
+}
+
+.features-5-8 [class*="border-"] {
+    margin: 0 0 1.8em;
+}
+
+
+/************** CONTACT */
+.connect {
+    margin-top: .1em;
+}
+
+/************** ABOUT */
+
+.about-img p {
+    text-align: left;
+}
+.about-img h2 {
+    margin-bottom: .7em;
+}
+.s-button a:link,
+.s-button a:visited{
+    color: #fff;
+}
+
+}
+
+@media screen and (min-width: 1025px) {
+
+    .wrapper {
+        max-width: 1130px;
+    }
+
+    .body-container {
+       padding: 0;
+    }
+
+
+    /*************** FEATURES GALLERY  */
+
+    .border-wrapp {
+        padding: 1.5em 1.5em .8em;
+        margin: 1.5em .8em .8em;
+    }
+
+
+    /************** CONTACT */
+    .connect {
+        margin-top: 1.5em;
+    }
+
+    /************** ABOUT */
+
+    .about-img p {
+        text-align: right;
+    }
+
+
+
+}
